@@ -1,0 +1,25 @@
+model type,panel,dependent variable,wave,lockdown_any,any_benefit_receipt*winter_energy_payment,PWB_qTrustMostPeopleScale,Dep17,MHS_qEnoughIncome,PWB_qHealthExcellentPoor,DVLFS,NumJobsmulti_job,PWB_qDiscriminated,PWB_qTimeLonely,hcq_qdampormould,hcq_qkeepingwarm,EthEuropean,EthMaori,EthPacific,EthAsian,EthMELAA,EthOther,partnered_father_depchild,partnered_mother_depchild,solo_father_depchild,solo_mother_depchild,other_father,other_mother,youngest_child_age,low_income,earned_self_emp,age_cat,dvsex,DVRegCouncil,winter_energy_payment:partnered_father_depchild,winter_energy_payment:partnered_mother_depchild,winter_energy_payment:solo_father_depchild,winter_energy_payment:solo_mother_depchild,winter_energy_payment:low_income,lockdown_any:partnered_father_depchild,lockdown_any:partnered_mother_depchild,lockdown_any:solo_father_depchild,lockdown_any:solo_mother_depchild,lockdown_any:youngest_child_age,any_benefit_receipt:partnered_father_depchild,any_benefit_receipt:partnered_mother_depchild,any_benefit_receipt:solo_father_depchild,any_benefit_receipt:solo_mother_depchild
+continuous,fixed,PWB_qFeelAboutLifeScale,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,fixed,PWB_qThingsWorthwhileScale,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,fixed,PWB_qTrustMostPeopleScale,1,1,1,,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,fixed,PWB_qTrustParl,1,1,1,,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,fixed,PWB_qTrustHlth,1,1,1,,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,fixed,PWB_qFamWellbeing,1,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,fixed,Dep17,1,1,1,1,,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+logit,fixed,good_health,1,1,1,1,1,1,,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+logit,fixed,not_lonely,1,1,1,1,1,1,1,1,1,1,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+logit,fixed,enough_income,1,1,1,1,1,,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+logit,fixed,no_damp_or_mould,1,1,1,1,1,1,1,1,1,1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+logit,fixed,warm_home,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+continuous,random,PWB_qFeelAboutLifeScale,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+continuous,random,PWB_qThingsWorthwhileScale,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+continuous,random,PWB_qTrustMostPeopleScale,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+continuous,random,PWB_qTrustParl,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+continuous,random,PWB_qTrustHlth,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+continuous,random,PWB_qFamWellbeing,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+continuous,random,Dep17,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+logit,random,good_health,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+logit,random,not_lonely,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+logit,random,enough_income,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+logit,random,no_damp_or_mould,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+logit,random,warm_home,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
